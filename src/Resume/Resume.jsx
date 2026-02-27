@@ -62,7 +62,7 @@ const Resume = () => {
             {/* Control bar */}
             <div className="bg-gradient-to-r from-blue-50 to-indigo-100 p-4 flex items-center justify-between border-b border-blue-200">
               <span className="text-gray-800 font-medium">
-                Aadarsh_Resume.pdf
+                Mohit_Resume.pdf
               </span>
               <button
                 onClick={toggleFullscreen}
