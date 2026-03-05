@@ -83,7 +83,7 @@ const Resume = () => {
               }`}
             >
               <iframe
-                src="/resume.pdf"
+                src="/Resume.pdf"
                 title="Resume"
                 className="w-full h-full"
                 onLoad={() => setIsLoading(false)}

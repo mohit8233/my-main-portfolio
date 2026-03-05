@@ -55,7 +55,7 @@ const Home = () => {
         >
           <div className="flex items-center gap-2 mb-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent text-center md:text-left">
-              Hi, I'm Aadarsh
+              Hi, I'm Mohit
             </h1>
             <span className="text-2xl sm:text-3xl md:text-4xl animate-bounce">
               👋
@@ -67,16 +67,13 @@ const Home = () => {
               className="text-lg sm:text-xl text-blue-600 font-semibold mb-2 opacity-0 animate-fade-in-up"
               style={{ animationDelay: "0.5s", animationFillMode: "forwards" }}
             >
-              Full Stack Developer
+              Frontend Developer 
             </div>
             <p
               className="text-base sm:text-lg text-gray-700 leading-relaxed opacity-0 animate-fade-in-up"
               style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}
             >
-              I am a passionate developer who loves building elegant, efficient,
-              and user-friendly web applications. Welcome to my portfolio, where
-              I showcase my skills, projects, and journey in the world of
-              software development.
+             Passionate Frontend Developer building responsive, modern, and user-centric web applications. I turn ideas into interactive digital experiences using clean code and creative design
             </p>
           </div>
 
@@ -104,7 +101,7 @@ const Home = () => {
             style={{ animationDelay: "1.4s", animationFillMode: "forwards" }}
           >
             <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-              {["React", "Node.js", "Python", "JavaScript", "Django"].map(
+              {["React", "HTML", "Tailwind", "JavaScript", "CSS"].map(
                 (skill, index) => (
                   <span
                     key={skill}
@@ -135,7 +132,7 @@ const Home = () => {
             <div className="relative bg-white p-2 rounded-3xl shadow-2xl transform group-hover:scale-105 transition-all duration-500">
               <img
                 src="./channels4_profile.jpg"
-                alt="Aadarsh"
+                alt="Mohit"
                 className="w-full h-auto rounded-2xl object-cover"
               />
 

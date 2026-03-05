@@ -36,41 +36,24 @@ const About = () => {
       icon: "🌐",
       color: "from-blue-500 to-cyan-500",
     },
-    {
-      title: "Data Structures & Algorithms",
-      desc: "Solving algorithmic challenges and improving problem-solving skills",
-      icon: "🧠",
-      color: "from-purple-500 to-pink-500",
-    },
-    {
-      title: "AI & Machine Learning",
-      desc: "Exploring the fascinating world of artificial intelligence",
-      icon: "🤖",
-      color: "from-green-500 to-emerald-500",
-    },
-    {
-      title: "Data Science",
-      desc: "Exploring data analysis, visualization, and ML to uncover insights",
-      icon: "📊",
-      color: "from-purple-500 to-pink-500",
-    },
+    
   ];
 
   const timeline = [
     {
       year: "2024",
-      event: "Started B.Tech in Computer Science",
-      desc: "Began my journey into the world of technology",
+      event: "Started BCA in Computer Applications",
+      desc: "Currently in 2nd Year (3rd Semester), exploring web development and modern technologies",
     },
     {
-      year: "2024",
+      year: "2025",
       event: "First Web Development Project",
-      desc: "Built my first complete web application",
+      desc: "Built my first  web application",
     },
     {
       year: "2025",
       event: "Advanced Learning Phase",
-      desc: "Diving deeper into modern frameworks and technologies",
+      desc: "Deepening my knowledge in modern  frameworks and exploring advanced web technologies.",
     },
   ];
 
@@ -138,25 +121,20 @@ const About = () => {
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
                 Hi there! I'm{" "}
                 <span className="font-bold text-blue-600">
-                  Aadarsh Shrivastav
+                  Mohit Singh Chauhan
                 </span>{" "}
                 👋, a passionate{" "}
                 <span className="font-semibold text-purple-600">
-                  2nd-year B.Tech Computer Science student
+                  Bachelor of Computer Application(BCA)
                 </span>{" "}
-                who believes in the transformative power of technology.
+                 A dedicated Frontend Web Developer
+                focused on building modern, responsive,
+                 and high-performance web applications.
               </p>
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
-                What drives me is not just writing code, but solving real-world
-                problems through technology. I'm constantly amazed by how a few
-                lines of code can automate processes, connect people, or create
-                experiences that delight users.
+             I enjoy transforming ideas into clean, interactive user interfaces that not only look great but also provide smooth user experiences. For me, frontend development is not just about design — it's about creating digital products that are fast, functional, and meaningful.
               </p>
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                Beyond academics, I'm an avid learner who thrives on challenges.
-                Whether debugging at 2 AM or learning a new framework over the
-                weekend, I approach every obstacle as an opportunity to grow.
-              </p>
+             
             </div>
           </div>
 

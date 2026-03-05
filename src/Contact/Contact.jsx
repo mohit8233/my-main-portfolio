@@ -5,11 +5,9 @@ import {
   GraduationCap,
   Github,
   Linkedin,
-  Instagram,
+ 
   MessageCircle,
-  Twitter,
-  Facebook,
-  Youtube,
+ 
   User,
 } from "lucide-react";
 
@@ -18,22 +16,22 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "aadarshshrivastav01@gmail.com",
+      value: "mohitbanna085@gmail.com",
     },
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Alternate Email",
-      value: "adarshrivastav.4545@gmail.com",
+      value: "smohit5633@gmail.com",
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "7620457148",
+      value: "8233917984",
     },
     {
       icon: <GraduationCap className="w-5 h-5" />,
       label: "Education",
-      value: "B.Tech in Computer Engineering",
+      value: "Bachelor of Computer Application(BCA)",
     },
   ];
 
@@ -41,52 +39,26 @@ const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      link: "https://github.com/Aadarsh-max",
+      link: "https://github.com/mohit8233",
       brandColors: "hover:from-gray-700 hover:to-gray-900",
       borderColor: "border-gray-600/50",
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      link: "https://www.linkedin.com/in/aadarsh-shrivastav-686722325",
+      link: "https://www.linkedin.com/in/mohit-singh8233",
       brandColors: "hover:from-blue-600 hover:to-blue-700",
       borderColor: "border-blue-500/50",
     },
-    {
-      icon: <Instagram className="w-5 h-5" />,
-      label: "Instagram",
-      link: "https://instagram.com/hii_aadarshhh",
-      brandColors: "hover:from-pink-500 hover:to-purple-600",
-      borderColor: "border-pink-400/50",
-    },
+    
     {
       icon: <MessageCircle className="w-5 h-5" />,
       label: "WhatsApp",
-      link: "https://wa.me/7620457148",
+      link: "https://wa.me/8233917984",
       brandColors: "hover:from-green-500 hover:to-green-600",
       borderColor: "border-green-400/50",
     },
-    {
-      icon: <Twitter className="w-5 h-5" />,
-      label: "X",
-      link: "https://x.com/aaddyshrivastav",
-      brandColors: "hover:from-slate-800 hover:to-black",
-      borderColor: "border-slate-600/50",
-    },
-    {
-      icon: <Facebook className="w-5 h-5" />,
-      label: "Facebook",
-      link: "https://www.facebook.com/share/196MZezWQY",
-      brandColors: "hover:from-blue-500 hover:to-blue-600",
-      borderColor: "border-blue-400/50",
-    },
-    {
-      icon: <Youtube className="w-5 h-5" />,
-      label: "YouTube",
-      link: "https://www.youtube.com/@SkillCoder-By_Aadarsh",
-      brandColors: "hover:from-red-500 hover:to-red-600",
-      borderColor: "border-red-400/50",
-    },
+    
   ];
 
   return (
@@ -139,12 +111,12 @@ const Contact = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-3 text-center leading-tight">
             Contact{" "}
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent animate-pulse">
-              Aadarsh Shrivastav
+              Mohit Singh
             </span>
           </h1>
           <div className="flex items-center gap-2 mb-6">
             <div className="h-0.5 w-12 bg-gradient-to-r from-transparent to-blue-400"></div>
-            <p className="text-gray-600 text-lg font-medium">Age: 18 Years</p>
+          
             <div className="h-0.5 w-12 bg-gradient-to-l from-transparent to-purple-400"></div>
           </div>
         </div>
@@ -226,7 +198,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://wa.me/7620457148"
+            href="https://wa.me/8233917984"
             className="relative px-8 py-4 rounded-xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-gradient-to-r hover:from-green-500 hover:to-green-600 hover:text-white hover:border-green-500 hover:scale-110 transition-all duration-500 text-center group overflow-hidden"
           >
             {/* Animated background */}
