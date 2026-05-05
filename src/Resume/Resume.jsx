@@ -96,8 +96,8 @@ const Resume = () => {
         <div className="flex flex-wrap items-center justify-center gap-4">
           {/* Primary button */}
           <a
-            href="/resume.pdf"
-            download="Aadarsh_Shrivastav_Resume.pdf"
+            href="/Resume.pdf"
+            download="Mohit_Resume.pdf"
             className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300 flex items-center space-x-3"
           >
             <Download className="w-5 h-5" />
@@ -106,7 +106,7 @@ const Resume = () => {
 
           {/* Secondary button */}
           <a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 border border-blue-600 text-blue-600 font-semibold rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center space-x-3"
