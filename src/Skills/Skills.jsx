@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const categories = [
   {
-    title: "Web Development",
+    title: "Frontend Development",
     skills: [
       { name: "HTML", level: 95, icon: <FaHtml5/> },
       { name: "CSS", level: 92, icon: <FaCss3Alt/> },
