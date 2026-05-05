@@ -1,27 +1,51 @@
 import React, { useState, useEffect } from "react";
+import {  FaFireAlt, FaGitAlt, FaLink } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaLock, FaNode, FaReact } from "react-icons/fa6";
+import { IoLogoVercel } from "react-icons/io5";
+import { RiTailwindCssLine } from "react-icons/ri";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import { TbBrandJavascript } from "react-icons/tb";
+import { VscVscode } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 
 const categories = [
   {
     title: "Web Development",
     skills: [
-      { name: "HTML", level: 95, icon: "🌐" },
-      { name: "CSS", level: 92, icon: "🎨" },
-      { name: "JavaScript", level: 95, icon: "⚡" },
-      { name: "React", level: 92, icon: "⚛️" },
-      { name: "Tailwind CSS", level: 90, icon: "💨" },
-      { name: "Bootstrap", level: 88, icon: "🅱️" }
+      { name: "HTML", level: 95, icon: <FaHtml5/> },
+      { name: "CSS", level: 92, icon: <FaCss3Alt/> },
+      { name: "JavaScript", level: 95, icon: <TbBrandJavascript /> },
+      { name: "React", level: 92, icon: <FaReact/> },
+      { name: "Tailwind CSS", level: 90, icon: <RiTailwindCssLine /> },
+      { name: "Bootstrap", level: 88, icon: <FaBootstrap/> }
     ],
     color: "from-purple-500 to-pink-500",
     description:
       "Modern frontend technologies for building responsive and interactive web applications"
   },
+
+  {
+    title: "Backend Development",
+    skills: [
+      { name: "Node.js", level: 90, icon: <FaNode/> },
+      { name: "Express.js", level: 88, icon: <SiExpress/> },
+      { name: "MongoDB", level: 85, icon: <SiMongodb/> },
+      { name: "Firebase", level: 87, icon: <FaFireAlt/> },
+      { name: "REST API", level: 90, icon: <FaLink/> },
+      { name: "Authentication (JWT)", level: 85, icon: <FaLock/> }
+    ],
+    color: "from-green-500 to-emerald-600",
+    description:
+      "Server-side technologies and databases for building scalable and secure backend systems"
+  },
+
   {
     title: "Tools & Technologies",
     skills: [
-      { name: "Git", level: 90, icon: "📋" },
-      { name: "GitHub", level: 92, icon: "🐙" },
-      { name: "VS Code", level: 95, icon: "💻" }
+      { name: "Git", level: 90, icon: <FaGitAlt/> },
+      { name: "GitHub", level: 92, icon: <FaGithub/> },
+      { name: "VS Code", level: 95, icon: <VscVscode /> },
+      { name: "vercel", level: 95, icon: <IoLogoVercel /> }
     ],
     color: "from-indigo-500 to-blue-500",
     description:

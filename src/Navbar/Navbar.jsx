@@ -52,12 +52,12 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Link
+          {/* <Link
             to="/github"
             className="px-4 py-2 rounded-full border border-gray-300 hover:bg-black hover:text-white hover:border-black transition-all duration-300 ease-in-out"
           >
             Github
-          </Link>
+          </Link> */}
           <Link
             to="/resume"
             className="px-4 py-2 rounded-full border border-gray-300 hover:bg-purple-600 hover:text-white hover:border-white transition-all duration-300 ease-in-out"

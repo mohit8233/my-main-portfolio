@@ -7,7 +7,7 @@ import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/MyProjects";
 import Contact from "./Contact/Contact";
-import Github from "./Github/Github";
+// import Github from "./Github/Github";
 import Resume from "./Resume/Resume";
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/github" element={<Github />} />
+            {/* <Route path="/github" element={<Github />} /> */}
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </main>

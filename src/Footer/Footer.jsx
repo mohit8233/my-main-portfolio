@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center space-x-2 text-sm">
-              <span>Crafted with</span>
+              <span>Build with</span>
               <Heart className="w-4 h-4 text-red-500" />
               <Code className="w-4 h-4 text-blue-600" />
               <span>&</span>

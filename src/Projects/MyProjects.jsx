@@ -9,48 +9,34 @@ import {
   Video,
   FileText,
 } from "lucide-react";
-
+import { MdQuiz, MdWork } from "react-icons/md";
 const MyProjects = () => {
   const projects = [
     {
       id: 1,
-      title: "QuickScribe",
-      subtitle: "Smart Note Taking",
-      description:
-        "Take notes effortlessly with sync, organization, and rich editing.",
-      icon: <FileText className="w-8 h-8" />,
+      title: "JobFinder",
+      subtitle: "Smart Job Search",
+      description: "Find your dream job effortlessly with advanced search and alerts.",
+      icon: <MdWork className="w-8 h-8" />,
       gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["React", "Node.js", "MongoDB", "Rich Text"],
-      features: ["Rich Text Editor", "Cloud Sync", "Organization"],
-      website: "https://notes-frontend-alpha-beryl.vercel.app",
-      github: "https://github.com/Aadarsh-max/QuickScribe",
+      tags: ["React", "Node", "Job Portal","Express", "Tailwind"],
+      features: ["Job Listings", "Email Alerts", "Application Tracking","DashBoard","Login"],
+      website: "https://worknest-yas4.vercel.app/",
+      github: "https://github.com/mohit8233/worknest",
     },
     {
       id: 2,
-      title: "SnipScan",
-      subtitle: "Shorten & Share Links",
-      description:
-        "Create short links, track analytics, and generate QR codes easily.",
-      icon: <LinkIcon className="w-8 h-8" />,
-      gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["Next.js", "PostgreSQL", "Analytics", "QR Codes"],
-      features: ["Custom Aliases", "Analytics", "QR Generation"],
-      website: "https://url-shortner-frontend-phi.vercel.app",
-      github: "https://github.com/Aadarsh-max/SnipScan",
+      title: "QuizApp",
+      subtitle: "Interactive Quiz Platform",
+      description: "Test your knowledge with fun quizzes and get instant results.",
+      icon: <MdQuiz className="w-8 h-8" />, // quiz related icon
+      gradient: "from-green-400 via-blue-500 to-purple-600",
+      tags: ["HTML", "CSS", "JavaScript"],
+      features: ["Multiple Choice Questions", "Instant Results"],
+      website: "https://quiz-app-red-tau.vercel.app/",
+      github: "https://github.com/mohit8233/Quiz-App",
     },
-    {
-      id: 3,
-      title: "Prepmate AI",
-      subtitle: "AI Interview Prep",
-      description:
-        "Practice interviews with AI feedback and personalized guidance.",
-      icon: <Brain className="w-8 h-8" />,
-      gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["AI", "Gemini", "React", "Interview Prep"],
-      features: ["AI-Powered", "Personalized", "Real-time Feedback"],
-      website: "https://prepmate-ai-nine.vercel.app",
-      github: "https://github.com/Aadarsh-max/PrepMateAI",
-    },
+
     {
       id: 4,
       title: "Expense Tracker",
@@ -59,37 +45,12 @@ const MyProjects = () => {
         "Monitor spending with beautiful graphs and smart categorization.",
       icon: <DollarSign className="w-8 h-8" />,
       gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["Charts", "Analytics", "Finance", "Dashboard"],
-      features: ["Graphs", "Categories", "Insights"],
-      website: "https://expense-tracker-gamma-dun.vercel.app",
-      github: "https://github.com/Aadarsh-max/Expense-Tracker",
+      tags: ["React", "Tailwind", "Node", "MongoDB"],
+      features: ["DashBoard", "Categories", "Login","Real Tracking"],
+      website: "",
+      github: "",
     },
-    {
-      id: 5,
-      title: "Streamify",
-      subtitle: "Video Calls & Chat",
-      description:
-        "Connect with friends through chat, video meetings, and screen share.",
-      icon: <Video className="w-8 h-8" />,
-      gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["WebRTC", "Chat", "Video Calls", "Meetings"],
-      features: ["Video Calls", "Group Chat", "Screen Share"],
-      website: "https://streamify-app-47nz.onrender.com",
-      github: "https://github.com/Aadarsh-max/Streamify",
-    },
-    {
-      id: 6,
-      title: "Resume Builder",
-      subtitle: "Build Your Resume",
-      description:
-        "Create professional resumes with modern designs and export options.",
-      icon: <Sparkles className="w-8 h-8" />,
-      gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["Templates", "PDF Export", "Customization"],
-      features: ["Themes", "PDF Export", "Customization"],
-      website: "https://resume-three-cyan.vercel.app",
-      github: "https://github.com/Aadarsh-max/Resume-Builder",
-    },
+
   ];
 
   return (
@@ -215,7 +176,7 @@ const MyProjects = () => {
               Want to see more of my work?
             </span>
             <a
-              href="https://github.com/Aadarsh-max"
+              href="https://github.com/mohit8233"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:from-blue-500 hover:to-purple-500 transition-all duration-300 hover:scale-105"

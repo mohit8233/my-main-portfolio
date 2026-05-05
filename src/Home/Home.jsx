@@ -101,7 +101,7 @@ const Home = () => {
             style={{ animationDelay: "1.4s", animationFillMode: "forwards" }}
           >
             <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-              {["React", "HTML", "Tailwind", "JavaScript", "CSS"].map(
+              {["React", "HTML", "Tailwind", "JavaScript", "CSS","Node","MongoDB"].map(
                 (skill, index) => (
                   <span
                     key={skill}
