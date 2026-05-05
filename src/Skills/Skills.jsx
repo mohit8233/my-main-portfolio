@@ -3,7 +3,7 @@ import {  FaFireAlt, FaGitAlt, FaLink } from "react-icons/fa";
 import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaLock, FaNode, FaReact } from "react-icons/fa6";
 import { IoLogoVercel } from "react-icons/io5";
 import { RiTailwindCssLine } from "react-icons/ri";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiExpress, SiMongodb, SiRender } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -45,7 +45,8 @@ const categories = [
       { name: "Git", level: 90, icon: <FaGitAlt/> },
       { name: "GitHub", level: 92, icon: <FaGithub/> },
       { name: "VS Code", level: 95, icon: <VscVscode /> },
-      { name: "vercel", level: 95, icon: <IoLogoVercel /> }
+      { name: "Vercel", level: 95, icon: <IoLogoVercel /> },
+      {name: "Render", level:89, icon: <SiRender />}
     ],
     color: "from-indigo-500 to-blue-500",
     description:
