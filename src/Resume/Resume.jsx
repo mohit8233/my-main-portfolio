@@ -83,7 +83,7 @@ const Resume = () => {
               }`}
             >
               <iframe
-                src="/Resume.pdf"
+                src="/resume.pdf"
                 title="Resume"
                 className="w-full h-full"
                 onLoad={() => setIsLoading(false)}
@@ -96,7 +96,7 @@ const Resume = () => {
         <div className="flex flex-wrap items-center justify-center gap-4">
           {/* Primary button */}
           <a
-            href="/Resume.pdf"
+            href="/resume.pdf"
             download="Mohit_Resume.pdf"
             className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300 flex items-center space-x-3"
           >
@@ -106,7 +106,7 @@ const Resume = () => {
 
           {/* Secondary button */}
           <a
-            href="/Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 border border-blue-600 text-blue-600 font-semibold rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center space-x-3"
