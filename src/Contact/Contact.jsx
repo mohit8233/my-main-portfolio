@@ -99,7 +99,7 @@ const Contact = () => {
               <div className="w-full h-full rounded-2xl bg-white flex items-center justify-center overflow-hidden shadow-inner">
                 <div className="w-full h-full rounded-2xl bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
                   <User className="w-16 h-16 text-blue-600" />
-                <img src="./aadarsh.jpg" />
+                <img src="./mohit.jpg" />
                 </div>
               </div>
             </div>
