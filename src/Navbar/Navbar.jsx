@@ -58,12 +58,12 @@ const Navbar = () => {
           >
             Github
           </Link> */}
-          <Link
+          {/* <Link
             to="/resume"
             className="px-4 py-2 rounded-full border border-gray-300 hover:bg-purple-600 hover:text-white hover:border-white transition-all duration-300 ease-in-out"
           >
             Resume
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -113,7 +113,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Link
+          {/* <Link
             to="/github"
             onClick={() => setIsOpen(false)}
             className="px-4 py-2 rounded-lg border border-gray-300 hover:bg-black hover:text-white hover:border-black transition"
@@ -126,7 +126,7 @@ const Navbar = () => {
             className="px-4 py-2 rounded-lg border border-gray-300 hover:bg-purple-400 hover:text-white hover:border-white transition"
           >
             Resume
-          </Link>
+          </Link> */}
         </div>
       )}
     </nav>
