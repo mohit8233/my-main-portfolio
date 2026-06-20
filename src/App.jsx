@@ -9,7 +9,7 @@ import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/MyProjects";
 import Contact from "./Contact/Contact";
-import Resume from "./Resume/Resume";
+
 
 import PremiumLoader from "./components/PremiumLoader";
 
@@ -40,7 +40,7 @@ const App = () => {
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
+            
           </Routes>
         </main>
 
