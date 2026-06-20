@@ -12,18 +12,7 @@ import {
 import { MdQuiz, MdWork } from "react-icons/md";
 const MyProjects = () => {
   const projects = [
-    {
-      id: 1,
-      title: "JobFinder",
-      subtitle: "Smart Job Search",
-      description: "Find your dream job effortlessly with advanced search and alerts.",
-      icon: <MdWork className="w-8 h-8" />,
-      gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["React", "Node", "Job Portal","Express", "Tailwind"],
-      features: ["Job Listings", "Email Alerts", "Application Tracking","DashBoard","Login"],
-      website: "https://worknest-yas4.vercel.app/",
-      github: "https://github.com/mohit8233/worknest",
-    },
+    
     {
       id: 2,
       title: "QuizApp",
