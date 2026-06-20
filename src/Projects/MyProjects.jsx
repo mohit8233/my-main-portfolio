@@ -25,7 +25,7 @@ const MyProjects = () => {
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Student Management System",
       subtitle: "Manage Students Efficiently",
       description:
