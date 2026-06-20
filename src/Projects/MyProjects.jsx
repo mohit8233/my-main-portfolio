@@ -29,7 +29,7 @@ const MyProjects = () => {
       title: "QuizApp",
       subtitle: "Interactive Quiz Platform",
       description: "Test your knowledge with fun quizzes and get instant results.",
-      icon: <MdQuiz className="w-8 h-8" />, // quiz related icon
+      icon: <MdQuiz className="w-8 h-8" />, 
       gradient: "from-green-400 via-blue-500 to-purple-600",
       tags: ["HTML", "CSS", "JavaScript"],
       features: ["Multiple Choice Questions", "Instant Results"],
@@ -37,19 +37,24 @@ const MyProjects = () => {
       github: "https://github.com/mohit8233/Quiz-App",
     },
 
-    {
-      id: 4,
-      title: "Expense Tracker",
-      subtitle: "Track Your Expenses",
-      description:
-        "Monitor spending with beautiful graphs and smart categorization.",
-      icon: <DollarSign className="w-8 h-8" />,
-      gradient: "from-blue-600 via-purple-600 to-blue-800",
-      tags: ["React", "Tailwind", "Node", "MongoDB"],
-      features: ["DashBoard", "Categories", "Login","Real Tracking"],
-      website: "",
-      github: "",
-    },
+   {
+  id: 4,
+  title: "Student Management System",
+  subtitle: "Manage Students Efficiently",
+  description:
+    "A complete student management platform to manage student records, attendance, courses, and performance reports.",
+  icon: <GraduationCap className="w-8 h-8" />,
+  gradient: "from-green-600 via-emerald-600 to-green-800",
+  tags: ["React", "Tailwind", "Node", "MongoDB"],
+  features: [
+    "Student Records",
+    "Attendance Tracking",
+    "Course Management",
+    "Performance Reports"
+  ],
+  website: "https://smg-self.vercel.app/login",
+  github: "https://github.com/mohit8233/SMS",
+},
 
   ];
 
