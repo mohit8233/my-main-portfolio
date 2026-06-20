@@ -9,12 +9,13 @@ import {
   Video,
   FileText,
 } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 import { MdQuiz, MdWork } from "react-icons/md";
 const MyProjects = () => {
   const projects = [
     
     {
-      id: 2,
+      id: 1,
       title: "QuizApp",
       subtitle: "Interactive Quiz Platform",
       description: "Test your knowledge with fun quizzes and get instant results.",
@@ -27,7 +28,7 @@ const MyProjects = () => {
     },
 
    {
-  id: 4,
+  id: 2,
   title: "Student Management System",
   subtitle: "Manage Students Efficiently",
   description:
