@@ -42,8 +42,8 @@ const MyProjects = () => {
         "Admin Dashboard",
         "Resume Upload"
       ],
-      website: "",
-      github: "",
+      website: "https://worknest-yas4.vercel.app/",
+      github: "https://github.com/mohit8233/worknest",
     },
 
     {
