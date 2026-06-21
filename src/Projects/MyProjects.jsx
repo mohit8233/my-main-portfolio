@@ -4,6 +4,8 @@ import {
   Github,
   Sparkles,
   GraduationCap,
+  DollarSign,
+  Briefcase,
 } from "lucide-react";
 
 import { MdQuiz } from "react-icons/md";
@@ -22,6 +24,26 @@ const MyProjects = () => {
       features: ["Multiple Choice Questions", "Instant Results"],
       website: "https://quiz-app-red-tau.vercel.app/",
       github: "https://github.com/mohit8233/Quiz-App",
+    },
+    {
+      id: 2,
+      title: "WorkNest Job Portal",
+      subtitle: "Find & Post Jobs Easily",
+      description:
+        "A full-stack MERN job portal where users can search jobs, apply online, and recruiters can post and manage job listings with an admin dashboard.",
+      icon: <Briefcase className="w-8 h-8" />,
+      gradient: "from-indigo-600 via-purple-600 to-pink-600",
+      tags: ["React", "Tailwind", "Node", "Express", "MongoDB"],
+      features: [
+        "User Authentication",
+        "Job Search & Filters",
+        "Job Posting (Recruiter)",
+        "Apply for Jobs",
+        "Admin Dashboard",
+        "Resume Upload"
+      ],
+      website: "",
+      github: "",
     },
 
     {
